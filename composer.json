@@ -1,21 +1,13 @@
 {
-    "name": "your-vendor-name/contact-package",
-    "description": "Laravel Contact Form Package",
-    "type": "library",
+    "name": "burak-solutions/contact-form",
+    "description": "A simple contact form package for Laravel.",
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.0"
+    },
     "autoload": {
         "psr-4": {
-            "YourVendorName\\ContactPackage\\": "src/"
+            "BurakSolutions\\ContactForm\\": "src/"
         }
-    },
-    "require": {
-        "php": ">=7.3",
-        "illuminate/support": "^8.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Burak",
-            "email": "burakbakirtas@gmail.com"
-        }
-    ]
+    }
 }
