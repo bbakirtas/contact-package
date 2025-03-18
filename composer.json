@@ -1,0 +1,21 @@
+{
+    "name": "your-vendor-name/contact-package",
+    "description": "Laravel Contact Form Package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "YourVendorName\\ContactPackage\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Burak",
+            "email": "burakbakirtas@gmail.com"
+        }
+    ]
+}
