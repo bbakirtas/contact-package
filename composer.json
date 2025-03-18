@@ -1,15 +1,10 @@
 {
-    "name": "burak-solutions/contact-form",
-    "description": "A simple contact form package for Laravel.",
+    "name": "bbakirtas/contact-package",
+    "description": "Your package description",
     "require": {
         "php": "^7.4|^8.0",
         "laravel/framework": "^8.0"
-        "minimum-stability": "dev",
-        "prefer-stable": true,
     },
-    "autoload": {
-        "psr-4": {
-            "BurakSolutions\\ContactForm\\": "src/"
-        }
-    }
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
